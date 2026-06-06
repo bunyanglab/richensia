@@ -1,0 +1,32 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Noto Sans KR',sans-serif}
+body{background:#0e1118;color:#fff;line-height:1.6;padding-bottom:110px}
+img{display:block;width:100%}
+.top-bar{position:fixed;top:0;width:100%;background:rgba(0,0,0,.92);z-index:99}
+.top-inner{padding:12px 16px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-weight:900;color:#d8b36a}
+.call-btn{text-decoration:none;background:linear-gradient(135deg,#d8b36a,#f7d68e);color:#000;padding:8px 14px;border-radius:12px;font-weight:900}
+.hero{padding:95px 16px 30px}
+.hero h4{color:#d8b36a;margin-bottom:15px}
+.hero h1{font-size:30px;line-height:1.3}
+.hero h1 span{display:block;margin-top:12px}
+.hero p{margin-top:20px;color:#ddd}
+.form-box{margin-top:30px;background:#171b24;border:1px solid #d8b36a;padding:20px;border-radius:20px}
+.form-box input{width:100%;padding:15px;margin:8px 0;background:#222;border:none;border-radius:12px;color:#fff}
+.agree{display:block;font-size:13px;color:#bbb;margin:12px 0}
+.submit-btn{width:100%;padding:16px;border:none;border-radius:14px;background:linear-gradient(135deg,#d8b36a,#f7d68e);font-weight:900}
+section{padding:24px 16px}
+.section-title{text-align:center;margin-bottom:20px}
+.section-title h2{font-size:28px}
+.section-title p{color:#bbb}
+.full-img{border-radius:18px;margin:16px 0}
+.premium-card{background:#171b24;border-radius:18px;padding:20px;margin-bottom:14px}
+.premium-card h3{color:#d8b36a;margin-bottom:8px}
+.unit{margin-bottom:36px}
+.unit h3{font-size:28px;margin:16px 0 6px}
+.unit strong{display:block;color:#d8b36a;font-size:20px;font-weight:900;margin-bottom:16px}
+footer{text-align:center;padding:40px 20px;color:#888}
+@keyframes float{0%{transform:translateY(0)}50%{transform:translateY(-6px)}100%{transform:translateY(0)}}
+.mobile-fixed{position:fixed;left:8px;right:8px;bottom:10px;display:flex;gap:10px;z-index:999}
+.mobile-fixed a{flex:1;text-decoration:none;height:74px;border-radius:24px;display:flex;justify-content:center;align-items:center;font-weight:900;animation:float 2s infinite}
+.mobile-fixed a:first-child{background:linear-gradient(135deg,#d8b36a,#f7d68e);color:#000}
+.mobile-fixed a:last-child{background:#fff;color:#000}
